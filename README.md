@@ -17,8 +17,8 @@ docker-compose up\
 mvn clean install\
 mvn spring-boot:run
 
-Created tables can be seen at localhost:8888 with Adminer tool and populated by choosing SQL command option. These commands should be performed first, to enable creating new users:
-INSERT INTO roles(name) VALUES ('USER');
+Created tables can be seen at localhost:8888 with Adminer tool and populated by choosing SQL command option. These commands should be performed first, to enable creating new users: <br>
+INSERT INTO roles(name) VALUES ('USER'); <br>
 INSERT INTO roles(name) VALUES ('ADMIN');
 
 The web application is now available at localhost:8080/home.
